@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <title>Viajes</title>
 </head>
 <body>
 
 <!-- IDEA: Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+    <a class="navbar-brand" href="#">SuperViaja</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,7 +33,62 @@
   </nav>
 <!-- IDEA: /Navbar -->
 
-  
+<!-- IDEA: Carousel -->
+  <section id="main">
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="False">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/paisaje1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/paisaje2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/paisaje3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="overlay">
+          <div class="container" id="titulo">
+            <div class="row text-center align-items-center">
+              <div class="col col-lg-6 offset-lg-6">
+                <h1>Expande tu horizonte</h1>
+                <p>
+                  Podrás viajar a otros lados sin necesidad de
+                  buscar en diferentes paginas para encontrar
+                  la mejor opcion, las mejores opciones las tenemos
+                  nosotros a un solo click de distancia.
+                </p>
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Cuenta de correro</label>
+                    <input type="email" class="form-control w-50 text-center" id="Email" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">Nunca revelaremos tu informacion</small>
+                  </div>
+                  </form>
+                <button type="button" class="btn btn-success">Registrate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- IDEA: /Carousel -->
+
+  <!-- IDEA: Footer -->
+  <footer id="footer">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Conocenos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Preguntas Frecuentes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Redes Sociales</a>
+      </li>
+</ul>
+  </footer>
+  <!-- IDEA: /Footer -->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
